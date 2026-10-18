@@ -55,10 +55,11 @@
 * Implemented CNN models for crop disease detection.
 * Integrated GPS for geo-tagged field monitoring.
 
-### 🤖 Intelligent Indoor Service Robot
+### 🤖 Smart Room Assistant Robot
 
 * Developed an autonomous TurtleBot3-based service robot using ROS2.
 * Implemented mapping, navigation, and obstacle avoidance in Gazebo.
+* Updated object detection using YOLO
 
 ---
 

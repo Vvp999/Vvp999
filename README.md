@@ -1,81 +1,40 @@
-<h1 align="center">Hi 👋, I'm Venkatesh Patil</h1>
+# Hi, I'm Venkatesh 👋
 
-<h3 align="center">A passionate AI & Robotics enthusiast 🤖</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=00F72D&center=true&vCenter=true&width=600&lines=Master's+Student+in+AI+%26+Robotics;ROS2+Developer;Machine+Learning+Enthusiast;Building+Intelligent+Robots+🤖;Embedded+Systems+Explorer" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Vvp999&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-</p>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="300" alt="coding gif">
-</p>
+**M.Sc. AI & Robotics student at Hochschule Hof, Germany**. I build robots in simulation and connect them to real hardware.
+Currently: **NVIDIA Isaac Sim · ROS 2 · embedded systems (ESP32)** · open to **Werkstudent** roles in robotics & simulation.
 
 ---
 
-## 🚀 About Me
+### 🚀 Featured project: ESP32 × ROS 2 × NVIDIA Isaac Sim
 
-* 🎓 Master's student in **Artificial Intelligence and Robotics**
-* 🔭 Currently working on **Intelligent Robotics projects using ROS2, Gazebo, and TurtleBot3**
-* 🌱 Currently learning **Deep Learning, Computer Vision, and Autonomous Robotics**
-* 👯 Looking to collaborate on **AI, Robotics, Embedded Systems, and Automation projects**
-* 💬 Ask me about **Python, ROS2, Machine Learning, Embedded Systems, and IoT**
-* 📫 How to reach me: **venkateshpatil124@gmail.com**
-
----
-
-## 🛠️ Languages and Tools
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,cpp,matlab,tensorflow,opencv,git,github,vscode,linux,raspberrypi" />
-</p>
-
----
-
-## 🤖 Robotics & AI Technologies
-
-<p align="left">
-  <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gazebo-FF6600?style=for-the-badge&logo=gazebo&logoColor=white" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Deep%20Learning-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-green?style=for-the-badge" />
-</p>
-
----
-
-## 🚁 Featured Projects
-
-### 🚁 Precision Agriculture Monitoring Using Drone
-
-* Developed a drone-based crop monitoring system.
-* Implemented CNN models for crop disease detection.
-* Integrated GPS for geo-tagged field monitoring.
-
-### 🤖 Smart Room Assistant Robot
-
-* Developed an autonomous TurtleBot3-based service robot using ROS2.
-* Implemented mapping, navigation, and obstacle avoidance in Gazebo.
-* Updated object detection using YOLO
-
----
-
-
-## 🤖 Connect With Me
-
-<p align="left">
-<a href="https://github.com/Vvp999" target="blank">
-<img align="center" src="https://skillicons.dev/icons?i=github" height="40" />
+<a href="https://github.com/Vvp999/esp32-isaac-sim-teleop">
+  <img src="https://raw.githubusercontent.com/Vvp999/esp32-isaac-sim-teleop/main/media/demo.gif" width="240" align="right" alt="ESP32 joystick driving a robot in Isaac Sim">
 </a>
 
-<a href="https://linkedin.com/in/your-linkedin-profile" target="blank">
-<img align="center" src="https://skillicons.dev/icons?i=linkedin" height="40" />
-</a>
-</p>
+**[esp32-isaac-sim-teleop](https://github.com/Vvp999/esp32-isaac-sim-teleop)**: a hardware-in-the-loop setup where a physical joystick on an ESP32 drives a simulated Jetbot in **Isaac Sim 6.2** over **ROS 2 Jazzy**, while an LCD "robot face" reacts to how you drive.
 
----
+- ESP32 firmware (C++): calibrated 50 Hz joystick sampling + custom serial protocol
+- Python `rclpy` bridge → `/cmd_vel` with fail-safe stop
+- Isaac Sim OmniGraph: ROS 2 subscriber → differential controller → wheel joints
+- Next: robot-arm teleoperation, RViz odometry, synthetic-data YOLO (sim-to-real)
 
-<h3 align="center">⭐ Building intelligent systems that bridge AI and Robotics ⭐</h3>
+<br clear="right"/>
+
+### 🤖 Other projects
+
+| Project | What it does | Tech |
+|---|---|---|
+| **TurtleBot3 indoor service robot** | Autonomous mapping, navigation and obstacle avoidance in Gazebo | ROS 2, Nav2, SLAM, Gazebo |
+| **Drone-based precision agriculture** | Detects crop diseases with a CNN and GPS-tags affected areas | Python, TensorFlow, OpenCV |
+| **Smart room assistant (YOLO)** | Object detection for a smart-room assistant | Python, YOLO, OpenCV |
+
+### 🛠️ Tech stack
+
+**Robotics:** ROS 2 (Nav2, rclpy), NVIDIA Isaac Sim / Omniverse, Gazebo, TurtleBot3
+**AI / Vision:** Python, TensorFlow, OpenCV, YOLO
+**Embedded:** ESP32, Arduino / C++, Raspberry Pi, I²C, serial
+**Tools:** Git, Linux, MATLAB, C++
+
+### 📫 Contact
+
+[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-ID) · ✉️ YOUR-EMAIL
